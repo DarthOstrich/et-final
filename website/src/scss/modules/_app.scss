@@ -8,6 +8,17 @@ nav {
   @include row(table);
 }
 
+.main {
+@include span-columns(8);
+@include reset-display;
+@include pad();
+}
+
+aside {
+  @include span-columns(4);
+@include pad();
+}
+
 footer {
   @include outer-container;
 }
