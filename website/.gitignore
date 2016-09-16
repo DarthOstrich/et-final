@@ -24,6 +24,10 @@ src/components
 ## Sass
 .sass-cache
 
+## Progamatic CSS
+
+app/assets/css
+
 ## OS X
 .DS_Store
 .AppleDouble
