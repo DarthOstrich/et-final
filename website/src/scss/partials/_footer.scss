@@ -1,3 +1,29 @@
 .footer {
+	@include span-columns(12);
+  background-color: $footer;
 
+	.footer-section {
+		@include span-columns(3 of 12);
+
+	}
+
+  .footer-section h4 {
+    background-color: $footer-nav;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+  }
+
+  .footer-section li {
+    color: $font-color;
+  }
+
+  .footer-section img {
+
+  }
+}
+
+.copyright {
+	@include outer-container;
+	text-align: center;
 }

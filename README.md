@@ -43,7 +43,7 @@
     - SMACSS (Jared)
     - Responsive framework (Brigitt)
 *SASS
-    - Global variables (Brigitt)
+    - [x] Global variables (Brigitt)
     - Mixin 
     - Placeholder 
     - Bourbon
