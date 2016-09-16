@@ -392,13 +392,64 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.logo {
-  margin: -58px 0 0 -100px;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 50%; }
+header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.top-bar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .top-bar:last-child {
+    margin-right: 0; }
+  .top-bar .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%; }
+    .top-bar .logo:last-child {
+      margin-right: 0; }
+  .top-bar .top-mini-nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    .top-bar .top-mini-nav:last-child {
+      margin-right: 0; }
+  .top-bar .search {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .top-bar .search:last-child {
+      margin-right: 0; }
+  .top-bar .donate {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-right: 0; }
+    .top-bar .donate:last-child {
+      margin-right: 0; }
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none; }
+
+.top-nav {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .top-nav::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .nav ul {
   list-style: none; }
@@ -430,17 +481,14 @@ textarea {
   color: #fff;
   text-shadow: none; }
 
-header {
+.container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  header::after {
+  .container::after {
     clear: both;
     content: "";
     display: table; }
-
-nav {
-  width: 100%; }
 
 .main {
   float: left;
@@ -450,12 +498,13 @@ nav {
   .main:last-child {
     margin-right: 0; }
 
-aside {
+.sidebar {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
-  aside:last-child {
+  width: 31.76157%;
+  margin-right: 0; }
+  .sidebar:last-child {
     margin-right: 0; }
 
 footer {
