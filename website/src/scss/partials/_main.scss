@@ -2,10 +2,56 @@
 	@include span-columns(8);
 	// @include reset-display;
 	// @include pad();
+  img {
+    width: 100%;
+  }
+  .services {
+    padding-left: 30px;
+  }
 }
 
 .sidebar {
 	@include span-columns(4);
 	@include omega;
 	// @include pad();
+  a {
+    color: $footer-nav;
+  }
+  .date {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px;
+  }
+  .test-bg {
+    background-color: $footer-nav;
+    color: #fff;
+    padding-left: 18px;
+
+  }
+  .testimonials {
+    background-color: $testimonials-bg;
+    padding-right: 20px;
+      a {
+        color: $font-color;
+      }
+      img {
+        float: right;
+      }
+  }
+  .sidenav {
+    margin-top: 20px;
+  }
+  .sidenav-bg {
+    background-color: $aside-nav;
+    padding: 5px;
+    margin-top: 1px;
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+      }
+  }
+  .fb-post {
+    padding-right: 20px;
+  }
 }

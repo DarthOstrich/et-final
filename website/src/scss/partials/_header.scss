@@ -1,16 +1,39 @@
 header {
 	@include outer-container;
+
 }
 
 .top-bar {
 	@include span-columns(12);
 	// $mobile: new-breakpoint(max-width 500px 4);
+background-color: $header-bg;
+
+
+	.mini-bar {
+		@include span-columns(12);
+	background-color: $footer;
+	padding-left: 65px;
+}
+
 	.logo {
 		@include span-columns(1 of 12);
+		position: absolute;
 	}
 
 	.top-mini-nav {
 		@include span-columns(5 of 12);
+
+		li {
+			color: #fff;
+				a {
+				text-decoration: none;
+				color: #fff;
+				padding: 10px;
+
+				}
+		}
+
+
 	}
 
 	.search {
@@ -29,7 +52,23 @@ nav ul li {
 }
 
 .top-nav {
-	@include outer-container;
+	@include span-columns(12);
 	// @include fill-parent();
 	// @include row(table);
+	background-color: $header-bg;
+
+	ul {
+		background-color: #fff;
+		padding: 7px;
+		padding-left: 100px;
+	}
+
+	li a {
+		text-decoration: none;
+		color: $font-color;
+		padding: 27px;
+
+
+		}
+
 }
