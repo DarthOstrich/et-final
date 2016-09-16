@@ -492,6 +492,11 @@ nav ul li {
     width: 100%; }
   .main .services {
     padding-left: 30px; }
+    .main .services h2 {
+      font-family: Times;
+      font-size: 20px;
+      font-weight: bold;
+      color: #515151; }
 
 .sidebar {
   float: left;

@@ -36,3 +36,12 @@
         left: $left;
     }
 }
+
+@mixin main-headers {
+  font: {
+    family: Times ;
+    size: 20px;
+    weight: bold;
+  }
+  color: $header-bg;
+}
