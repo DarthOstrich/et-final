@@ -454,6 +454,48 @@ nav ul li {
 .nav ul {
   list-style: none; }
 
+.main {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .main:last-child {
+    margin-right: 0; }
+
+.sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0; }
+  .sidebar:last-child {
+    margin-right: 0; }
+
+.footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .footer:last-child {
+    margin-right: 0; }
+  .footer .footer-section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .footer .footer-section:last-child {
+      margin-right: 0; }
+
+.copyright {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .copyright::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 @font-face {
   font-family: 'Font-Name';
   src: url("../fonts/font-name.eot");
@@ -486,32 +528,6 @@ nav ul li {
   margin-left: auto;
   margin-right: auto; }
   .container::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.main {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
-  .main:last-child {
-    margin-right: 0; }
-
-.sidebar {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  margin-right: 0; }
-  .sidebar:last-child {
-    margin-right: 0; }
-
-footer {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  footer::after {
     clear: both;
     content: "";
     display: table; }
