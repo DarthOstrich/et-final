@@ -38,6 +38,9 @@ background-color: $header-bg;
 
 	.search {
 		@include span-columns(3 of 12);
+		  .fa-search {
+
+  	}
 	}
 
 	.donate {

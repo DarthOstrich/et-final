@@ -39,9 +39,8 @@
 
 @mixin main-headers {
   font: {
-    family: Times ;
-    size: 20px;
-    weight: bold;
+    family: 'David Libre', serif;
+    size: 30px;
   }
   color: $header-bg;
 }
