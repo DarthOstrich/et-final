@@ -9,6 +9,7 @@ var gulp = require( 'gulp' ),
   rename = require( 'gulp-rename' ),
   cssnano = require( 'gulp-cssnano' ),
   sourcemaps = require( 'gulp-sourcemaps' ),
+  neat = require( 'node-neat' ).includePaths,
   package = require( './package.json' );
 
 
@@ -27,7 +28,9 @@ var banner = [
 gulp.task( 'css', function () {
   return gulp.src( 'src/scss/style.scss' )
     .pipe( sourcemaps.init() )
-    .pipe( sass().on( 'error', sass.logError ) )
+    .pipe( sass({
+      includePaths: [ 'scss' ].concat( neat )
+  }).on( 'error', sass.logError ) )
     .pipe( autoprefixer( 'last 4 version' ) )
     .pipe( gulp.dest( 'app/assets/css' ) )
     .pipe( cssnano() )

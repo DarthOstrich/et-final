@@ -1,10 +1,35 @@
-.header {
-
+header {
+	@include outer-container;
 }
-.logo {
-  margin: -58px 0 0 -100px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
 
-  }
+.top-bar {
+	@include span-columns(12);
+	// $mobile: new-breakpoint(max-width 500px 4);
+	.logo {
+		@include span-columns(1 of 12);
+	}
+
+	.top-mini-nav {
+		@include span-columns(5 of 12);
+	}
+
+	.search {
+		@include span-columns(3 of 12);
+	}
+
+	.donate {
+		@include span-columns(3 of 12);
+		@include omega();
+	}
+}
+
+nav ul li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.top-nav {
+	@include outer-container;
+	// @include fill-parent();
+	// @include row(table);
 }

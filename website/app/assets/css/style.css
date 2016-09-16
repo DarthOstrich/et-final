@@ -26,10 +26,6 @@ body {
   color: #444;
   transition: all .4s .3s ease-in; }
 
-body, html {
-  min-height: 100vh;
-  overflow: hidden; }
-
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -396,16 +392,109 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.logo {
-  margin: -58px 0 0 -100px;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 50%; }
+header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.top-bar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .top-bar:last-child {
+    margin-right: 0; }
+  .top-bar .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%; }
+    .top-bar .logo:last-child {
+      margin-right: 0; }
+  .top-bar .top-mini-nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    .top-bar .top-mini-nav:last-child {
+      margin-right: 0; }
+  .top-bar .search {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .top-bar .search:last-child {
+      margin-right: 0; }
+  .top-bar .donate {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-right: 0; }
+    .top-bar .donate:last-child {
+      margin-right: 0; }
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none; }
+
+.top-nav {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .top-nav::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .nav ul {
   list-style: none; }
+
+.main {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .main:last-child {
+    margin-right: 0; }
+
+.sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0; }
+  .sidebar:last-child {
+    margin-right: 0; }
+
+.footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .footer:last-child {
+    margin-right: 0; }
+  .footer .footer-section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .footer .footer-section:last-child {
+      margin-right: 0; }
+
+.copyright {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .copyright::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -434,40 +523,11 @@ textarea {
   color: #fff;
   text-shadow: none; }
 
-header {
+.container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  header::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-nav {
-  width: 100%;
-  display: table;
-  width: 100%;
-  table-layout: fixed; }
-
-.main {
-  display: table-cell;
-  width: 66.66667%;
-  padding: 2.35765%; }
-
-aside {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  padding: 2.35765%; }
-  aside:last-child {
-    margin-right: 0; }
-
-footer {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  footer::after {
+  .container::after {
     clear: both;
     content: "";
     display: table; }
