@@ -1,0 +1,901 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"ar",
+				"area	<area>"
+			],
+			[
+				"hr",
+				"href	Attr"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"texw",
+				"text-overflow"
+			],
+			[
+				"na",
+				"nav:pills	pills"
+			],
+			[
+				"n",
+				"node_modules/"
+			],
+			[
+				"ur",
+				"url-1.png	w:160 h:160"
+			],
+			[
+				"teal",
+				"text-align"
+			],
+			[
+				"su",
+				"successstories.png	w:94 h:83"
+			],
+			[
+				"lists",
+				"list-style"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"se",
+				"seduction9.jpg	w:200 h:155"
+			],
+			[
+				"hom",
+				"hombre-lobo3.jpg	w:200 h:155"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"c",
+				"career-week.jpg	w:155 h:200"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"listst",
+				"list-style-image"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"tedec",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text-de",
+				"text-decoration-line"
+			],
+			[
+				"tede",
+				"text-underline-position"
+			],
+			[
+				"texde",
+				"text-decoration"
+			],
+			[
+				"in",
+				"underline"
+			],
+			[
+				"texdec",
+				"text-decoration-line"
+			],
+			[
+				"bord",
+				"border-collapse"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"_",
+				"_js/"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "website/app/index.html",
+			"settings":
+			{
+				"buffer_size": 4948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "website/src/scss/partials/_main.scss",
+			"settings":
+			{
+				"buffer_size": 887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1191,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "website/.gitignore",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "website/src/scss/modules/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inser",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"packing",
+				"Package Control: Install Package"
+			],
+			[
+				"packr",
+				"Package Control: Remove Package"
+			],
+			[
+				"packagin",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prettre",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"sublimelintersett",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sublimelintersu",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"RE",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"prettpr",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"options",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"pacre",
+				"Package Control: List Packages"
+			],
+			[
+				"project op",
+				"Project: Edit Project"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"ed",
+				"Project: Edit Project"
+			],
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sec",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"section",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 445.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/MonkeyBear/et-final-jared",
+		"/Users/MonkeyBear/et-final-jared/website",
+		"/Users/MonkeyBear/et-final-jared/website/app",
+		"/Users/MonkeyBear/et-final-jared/website/app/assets/components",
+		"/Users/MonkeyBear/et-final-jared/website/app/assets/components/modernizr",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/partials"
+	],
+	"file_history":
+	[
+		"/Users/MonkeyBear/et-final-jared/website/app/assets/css/style.css",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/partials/_header.scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/modules/_defaults.scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/partials/_main.scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/partials/_nav.scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/partials/_footer.scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/modules/_app.scss",
+		"/Users/MonkeyBear/et-final-jared/website/src/scss/modules/_vars.scss",
+		"/Users/MonkeyBear/et-final-jared/website/gulpfile.js",
+		"/Users/MonkeyBear/et-final-jared/README.md",
+		"/Users/MonkeyBear/Desktop/bboulton/portfolio.html",
+		"/Users/MonkeyBear/et-final-jared/website/package.json",
+		"/Users/MonkeyBear/Desktop/bboulton/index.html",
+		"/Users/MonkeyBear/Desktop/bboulton/css/style.css",
+		"/Users/MonkeyBear/Desktop/bboulton/style.scss",
+		"/Users/MonkeyBear/.bash_profile",
+		"/Users/MonkeyBear/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/MonkeyBear/Documents/dev/web-dev-notes/js-auth-with-express-and-mongo/models/user.js",
+		"/Users/MonkeyBear/Documents/dev/web-dev-notes/js-auth-with-express-and-mongo/app.js",
+		"/Users/MonkeyBear/Documents/dev/web-dev-notes/js-auth-with-express-and-mongo/views/about.pug",
+		"/Users/MonkeyBear/Documents/dev/web-dev-notes/js-auth-with-express-and-mongo/routes/index.js",
+		"/Users/MonkeyBear/Documents/dev/web-dev-notes/js-auth-with-express-and-mongo/views/register.pug",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/babel-workshop/.gitignore",
+		"/Users/MonkeyBear/Desktop/bboulton/node_modules/bootstrap/scss/_nav.scss",
+		"/Users/MonkeyBear/Desktop/bboulton/node_modules/bootstrap/scss/_variables.scss",
+		"/Users/MonkeyBear/Desktop/fund-bhs/scss/partials/_header.scss",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda113/jquery-basics-review/js/test.js",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/mongo-blog/gulp-basics/index.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/mongo-blog/gulp-basics/js/app.js",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/mongo-blog/gulp-basics/final-gulpfile.js",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/mongo-blog/gulp-basics/js/main.js",
+		"/Users/MonkeyBear/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/MonkeyBear/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/MonkeyBear/Desktop/wp-summer-olympics/conn-info.md",
+		"/Users/MonkeyBear/Desktop/fund-bhs/scss/partials/_general.scss",
+		"/Users/MonkeyBear/Desktop/fund-bhs/scss/partials/_footer.scss",
+		"/Users/MonkeyBear/Desktop/fund-bhs/scss/modules/_general.scss",
+		"/Users/MonkeyBear/Desktop/fund-bhs/scss/partials/_main.scss",
+		"/Users/MonkeyBear/Desktop/fund-bhs/index.html",
+		"/Users/MonkeyBear/Desktop/fund-bhs/scss/style.scss",
+		"/Users/MonkeyBear/Desktop/fund-bhs/floats.html",
+		"/Users/MonkeyBear/simple-todos/client/main.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda113/team-eddie/rock_paper_scissors/play.html",
+		"/Users/MonkeyBear/Desktop/fund-bhs/fund-bhs/index.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda113/student-affairs/css/style.css",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda113/student-affairs/package.json",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda113/student-affairs/index.html",
+		"/Users/MonkeyBear/Desktop/sign-in.html",
+		"/Users/MonkeyBear/Documents/dev/profile",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/.gitignore",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/index.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/scss/style.scss",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/css/style.css",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/css/style.css.map",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/live.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/photos.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/about.html",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/contact.html",
+		"/Users/MonkeyBear/Documents/dev/web-dev-notes/workflow/terminal.md",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/js/photos.js",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/css/layout.css",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/js/home.js",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/css/basic.css",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/css/color.css",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/css/typography.css",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda313/2016/summer/domsters/photo.html",
+		"/Users/MonkeyBear/Desktop/student-affairs/index.html",
+		"/Users/MonkeyBear/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/functions.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/style.css",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Web Standards/bhs/index.html",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/header.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/.gitignore",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/footer.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/js/theme.js",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/css/style.css",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/index.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/js/ie10-viewport-bug-workaround.js",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/page-full-width.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/home.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/single.php",
+		"/Users/MonkeyBear/Sites/final-bhs/index.php",
+		"/Users/MonkeyBear/Sites/final-bhs/wp-content/themes/bhstheme/css/ie10-viewport-bug-workaround.css",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/Object Oriented Scripting/S07-A-Less-Lightboxes 2/index.html",
+		"/Users/MonkeyBear/Desktop/portfolio site/_css/styles.css",
+		"/Users/MonkeyBear/Desktop/portfolio site/portfolio.html",
+		"/Users/MonkeyBear/Desktop/portfolio site/about.html",
+		"/Users/MonkeyBear/Desktop/portfolio site/index.html",
+		"/Users/MonkeyBear/Desktop/PortfolioWork/Site/index.html",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/Object Oriented Scripting/S07-A-Less-Lightboxes 2/_css/styles.css",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/W16-Quarter 7/Content Management Systems/Week 01/_PHP and MySQLi/_ToDo/Web_Php&MySQLi_1_START/_css/styles.css",
+		"/Users/MonkeyBear/Sites/final-bhs/themes/bhs/functions.php",
+		"/Users/MonkeyBear/Sites/final-bhs.sublime-project",
+		"/Users/MonkeyBear/Desktop/PortfolioWork/Site/_css/styles.css",
+		"/Users/MonkeyBear/Desktop/PortfolioWork/Site/styles.css",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/Programming Logic/Week 06/_jQuery LightBox/_ToDo/jQueryLightBox_FINISHED/theLightbox.html",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/W16-Quarter 7/Content Management Systems/HW7_Villatoro_Brigitt/_css/styles.css",
+		"/Users/MonkeyBear/Desktop/Jobs(Freelance)/Gago_James/Portfolio Site/index.html",
+		"/Users/MonkeyBear/Desktop/Jobs(Freelance)/Gago_James/Portfolio Site/_css/styles.css",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/W16-Quarter 7/Content Management Systems/HW7_Villatoro_Brigitt/index.html",
+		"/Users/MonkeyBear/Sites/michaelangelo/wp-content/themes/leo-theme/node_modules/bootstrap/less/responsive-utilities.less",
+		"/Users/MonkeyBear/Documents/dev/classes/gwda263/05-14-2016/fun-with-sass/scss/style.scss",
+		"/Users/MonkeyBear/Documents/dev/projects/michaelangelo/michaelangelowp.sublime-project",
+		"/Users/MonkeyBear/Sites/michaelangelo/wp-config.php",
+		"/Users/MonkeyBear/Sites/michaelangelo/wp-content/themes/leo-theme/page-full-width.php",
+		"/Users/MonkeyBear/Sites/final-project-bhs/wp-content/themes/bv-bhs/functions.php",
+		"/Users/MonkeyBear/Sites/final-project-bhs/wp-content/themes/bv-bhs/footer.php",
+		"/Users/MonkeyBear/Sites/final-project-bhs/functions.php",
+		"/Users/MonkeyBear/Sites/final-project-bhs/wp-content/themes/bv-bhs/header.php",
+		"/Users/MonkeyBear/Sites/final-project-bhs/wp-content/themes/bv-bhs/_css/styles.css",
+		"/Users/MonkeyBear/Sites/final-project-bhs/wp-content/themes/bv-bhs/index.php",
+		"/Users/MonkeyBear/Sites/michaelangelo/wp-content/themes/leo-theme/functions.php",
+		"/Users/MonkeyBear/Sites/michaelangelo/wp-content/themes/leo-theme/header.php",
+		"/Users/MonkeyBear/Sites/michaelangelo/wp-content/themes/leo-theme/index.php",
+		"/Users/MonkeyBear/Documents/dev/projects/michaelangelowp/michaelangelowp.sublime-project",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Web Standards/dev/projects/michaelangelowp.sublime-project",
+		"/Users/MonkeyBear/Dropbox/Ai NOHO 2014-2018/W16-Quarter 7/Content Management Systems/Week 01/_PHP and MySQLi/_ToDo/Web_Php&MySQLi_1_START/index.html",
+		"/Users/MonkeyBear/Desktop/Jobs(Freelance)/Gago_James/Portfolio Site/styles.css",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Kevinth's Website/about.html",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Kevinth's Website/index.html",
+		"/Users/MonkeyBear/Sites/mini-painting-wp/index.php",
+		"/Users/MonkeyBear/Sites/mini-painting-wp/wp-config.php",
+		"/Users/MonkeyBear/Sites/mini-painting-wp/wp-content/plugins/index.php",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Web Standards/HW1/structure.html",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Web Standards/HW1/index.html",
+		"/Users/MonkeyBear/Downloads/html5-boilerplate_v5.3.0/index.html",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Web Standards/HW1/_css/styles.css",
+		"/Users/MonkeyBear/Desktop/S16-Quarter 8/Web Standards/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"320px",
+			";\n",
+			"%;",
+			"article",
+			"*",
+			"  position: absolute;",
+			";\n",
+			"#151563",
+			"#070F6B",
+			"#000E45",
+			"#0D21FF",
+			"#0B17A3",
+			"#070D57",
+			"#3A6073",
+			"left",
+			"#6F6D6A",
+			"500px",
+			"aside",
+			"bottom",
+			"right",
+			"__dirname",
+			"  background-color: none;",
+			"Sapiente possimus ducimus quis blanditiis mollitia aperiam eum explicabo aliquid, quo quae deserunt tempora, dolores eaque.",
+			"1 of 2 (stacked on mobile)",
+			" One of three columns",
+			"img-rounded",
+			"...",
+			"One of three columns",
+			"<link rel=\"stylesheet\" href=\"css/style.css\">",
+			"300",
+			"100",
+			"300",
+			"header",
+			"\"",
+			".\n",
+			"td",
+			"th",
+			"table {\n  border: 1px solid #3D59EE;",
+			"nav",
+			"nav ",
+			"#ec8",
+			"#667",
+			"#eb6",
+			"#cba",
+			"#dcb",
+			"#ba9",
+			"#799",
+			"#eef",
+			"#99a",
+			"#edc",
+			"#223",
+			"#667",
+			"#789",
+			"#455",
+			"#ec8",
+			"#778",
+			"#667",
+			"#345",
+			"#eb6",
+			"#445",
+			"#334",
+			"#fb5",
+			"images",
+			"content",
+			"images",
+			"scripts/global.js",
+			"img",
+			"../",
+			"images",
+			"#header",
+			"#navigation",
+			"#content",
+			"#navigation",
+			"id",
+			"class=\"horizontal\"",
+			"_img/_small/candy-labels.jpg\" alt=\"Candy Labels\"",
+			"_large",
+			"50",
+			"75",
+			"00",
+			"80",
+			"_small",
+			"Images",
+			"25",
+			"_img",
+			"20",
+			"box",
+			"BOX",
+			"box",
+			"BOX",
+			"box",
+			"BOX",
+			"box",
+			"BOX",
+			"position: absolute;",
+			" text-decoration: none;",
+			"25",
+			"100%",
+			"min-device-",
+			"max-device-",
+			"footer a:link{\n        width: 42%;\n    }",
+			" nav a:link {\n        width: 46%;\n        margin: 0px 0%;\n        padding: 5px 2%;\n    }",
+			"1366px",
+			"'0' + "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "website/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3369,
+								3369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "website/src/scss/partials/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								830,
+								830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 472.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 451.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "website/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/icons/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "website/src/scss/modules/_vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "et-final.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sub",
+				"workflow/sublime-text.md"
+			],
+			[
+				"st",
+				"css/style.css"
+			],
+			[
+				"term",
+				"workflow/terminal.md"
+			],
+			[
+				"",
+				"css/typography.css"
+			],
+			[
+				"page",
+				"wp-content/themes/twentysixteen/page.php"
+			],
+			[
+				"wp",
+				"development/wp-cli.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/S16-Quarter 8/Web Standards/dev/projects/michaelangelowp.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

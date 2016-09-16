@@ -1,29 +1,29 @@
 #To-Do
 * Header
-    - Layout
-    - Top & Main Navigation
+    - [x] Layout
+    - [x] Top & Main Navigation
     - Facebook (Jared)
     - Search
     - Donate Form
 * Main Content
     - Home (Jared)
         + Slider
-        + Main Body Text
+        + [x] Main Body Text
         + Aside
             * Navigation
             * Facebook 
             * Google Plus
         + Footer (Brigitt)
-            * Navigation
+            * [x] Navigation
             * Logos
     - Services (Brigitt)
         + Aside
-            * Navigation
+            * [x] Navigation
             * Donate Form
-        + Main Body Text
+        + [x] Main Body Text
         + Facebook
-* Aside
-* Footer
+* [x] Aside
+* [x] Footer 
 * Skeleton
     - [x] README.md (Brigitt)
     - [x] Upstream Repo (Jared)
