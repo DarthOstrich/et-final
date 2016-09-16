@@ -29,7 +29,7 @@ nav ul li {
 }
 
 .top-nav {
-	@include outer-container;
+	@include span-columns(12);
 	// @include fill-parent();
 	// @include row(table);
 }
