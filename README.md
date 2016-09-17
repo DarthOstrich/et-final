@@ -10,12 +10,12 @@
         + Slider
         + [x] Main Body Text
         + Aside
-            * Navigation
+            * [x] Navigation
             * Facebook 
             * Google Plus
         + Footer (Brigitt)
             * [x] Navigation
-            * Logos
+            * [x] Logos
     - Services (Brigitt)
         + Aside
             * [x] Navigation
@@ -44,12 +44,12 @@
     - Responsive framework (Brigitt)
 *SASS
     - [x] Global variables (Brigitt)
-    - Mixin 
+    - [x] Mixin 
     - Placeholder 
-    - Bourbon
+    - [x] Bourbon
     - Compass
     - Function
     - Animation
-    - Gradient
+    - [x] Gradient
 
 ![alt text](https://d30y9cdsu7xlg0.cloudfront.net/png/11784-200.png)
