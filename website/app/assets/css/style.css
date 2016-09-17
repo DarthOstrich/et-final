@@ -559,6 +559,8 @@ nav ul li {
     color: #fff; }
   .footer .footer-section li {
     color: #938f8b; }
+  .footer .footer-section img {
+    margin-top: 30px; }
 
 .copyright {
   max-width: 68em;
@@ -602,7 +604,8 @@ nav ul li {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-top: -20px; }
   .container::after {
     clear: both;
     content: "";
