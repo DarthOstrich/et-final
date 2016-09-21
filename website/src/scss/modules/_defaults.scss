@@ -14,6 +14,7 @@ body {
 	color: #444;
 	transition: all 0.4s 0.3s ease-in;
 	@include linear-gradient($bg-gradient1, $bg-gradient2);
+	@import 'https://fonts.googleapis.com/css?family=David+Libre';
 }
 
 body,
