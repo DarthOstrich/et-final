@@ -19,11 +19,12 @@
   }
 
   .footer-section img {
-
+    margin-top: 30px;
   }
 }
 
 .copyright {
 	@include outer-container;
 	text-align: center;
+  color: #fff;
 }

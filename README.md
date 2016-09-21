@@ -1,29 +1,29 @@
 #To-Do
 * Header
-    - Layout
-    - Top & Main Navigation
+    - [x] Layout
+    - [x] Top & Main Navigation
     - Facebook (Jared)
     - Search
     - Donate Form
 * Main Content
     - Home (Jared)
         + Slider
-        + Main Body Text
+        + [x] Main Body Text
         + Aside
-            * Navigation
+            * [x] Navigation
             * Facebook 
             * Google Plus
         + Footer (Brigitt)
-            * Navigation
-            * Logos
+            * [x] Navigation
+            * [x] Logos
     - Services (Brigitt)
         + Aside
-            * Navigation
+            * [x] Navigation
             * Donate Form
-        + Main Body Text
+        + [x] Main Body Text
         + Facebook
-* Aside
-* Footer
+* [x] Aside
+* [x] Footer 
 * Skeleton
     - [x] README.md (Brigitt)
     - [x] Upstream Repo (Jared)
@@ -44,10 +44,12 @@
     - Responsive framework (Brigitt)
 *SASS
     - [x] Global variables (Brigitt)
-    - Mixin 
+    - [x] Mixin 
     - Placeholder 
-    - Bourbon
+    - [x] Bourbon
     - Compass
     - Function
     - Animation
-    - Gradient
+    - [x] Gradient
+
+![alt text](https://d30y9cdsu7xlg0.cloudfront.net/png/11784-200.png)

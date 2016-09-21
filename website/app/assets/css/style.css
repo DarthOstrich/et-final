@@ -1,3 +1,5 @@
+/* Mixin Example */
+@import 'https://fonts.googleapis.com/css?family=David+Libre';
 html {
   box-sizing: border-box; }
 
@@ -407,14 +409,25 @@ header {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  background-color: #515151; }
   .top-bar:last-child {
     margin-right: 0; }
+  .top-bar .mini-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-color: #0c2745;
+    padding-left: 65px; }
+    .top-bar .mini-bar:last-child {
+      margin-right: 0; }
   .top-bar .logo {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 6.17215%; }
+    width: 6.17215%;
+    position: absolute; }
     .top-bar .logo:last-child {
       margin-right: 0; }
   .top-bar .top-mini-nav {
@@ -424,6 +437,12 @@ header {
     width: 40.29137%; }
     .top-bar .top-mini-nav:last-child {
       margin-right: 0; }
+    .top-bar .top-mini-nav li {
+      color: #fff; }
+      .top-bar .top-mini-nav li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px; }
   .top-bar .search {
     float: left;
     display: block;
@@ -445,13 +464,21 @@ nav ul li {
   text-decoration: none; }
 
 .top-nav {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .top-nav::after {
-    clear: both;
-    content: "";
-    display: table; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: #515151; }
+  .top-nav:last-child {
+    margin-right: 0; }
+  .top-nav ul {
+    background-color: #fff;
+    padding: 7px;
+    padding-left: 100px; }
+  .top-nav li a {
+    text-decoration: none;
+    color: #938f8b;
+    padding: 27px; }
 
 .nav ul {
   list-style: none; }
@@ -463,6 +490,14 @@ nav ul li {
   width: 65.88078%; }
   .main:last-child {
     margin-right: 0; }
+  .main img {
+    width: 100%; }
+  .main .services {
+    padding-left: 30px; }
+    .main .services h2 {
+      font-family: 'David Libre', serif;
+      font-size: 30px;
+      color: #515151; }
 
 .sidebar {
   float: left;
@@ -472,6 +507,35 @@ nav ul li {
   margin-right: 0; }
   .sidebar:last-child {
     margin-right: 0; }
+  .sidebar a {
+    color: #091f37; }
+  .sidebar .date {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px; }
+  .sidebar .test-bg {
+    background-color: #091f37;
+    color: #fff;
+    padding-left: 18px; }
+  .sidebar .testimonials {
+    background-color: #f5f5f5;
+    padding-right: 20px; }
+    .sidebar .testimonials a {
+      color: #938f8b; }
+    .sidebar .testimonials img {
+      float: right; }
+  .sidebar .sidenav {
+    margin-top: 20px; }
+  .sidebar .sidenav-bg {
+    background-color: #ee8410;
+    padding: 5px;
+    margin-top: 1px; }
+    .sidebar .sidenav-bg a {
+      text-decoration: none;
+      color: #fff;
+      padding: 15px; }
+  .sidebar .fb-post {
+    padding-right: 20px; }
 
 .footer {
   float: left;
@@ -495,12 +559,15 @@ nav ul li {
     color: #fff; }
   .footer .footer-section li {
     color: #938f8b; }
+  .footer .footer-section img {
+    margin-top: 30px; }
 
 .copyright {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  text-align: center; }
+  text-align: center;
+  color: #fff; }
   .copyright::after {
     clear: both;
     content: "";
@@ -537,7 +604,8 @@ nav ul li {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-top: -20px; }
   .container::after {
     clear: both;
     content: "";

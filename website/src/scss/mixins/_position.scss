@@ -36,3 +36,12 @@
         left: $left;
     }
 }
+
+/* Mixin Example */
+@mixin main-headers {
+  font: {
+    family: 'David Libre', serif;
+    size: 30px;
+  }
+  color: $header-bg;
+}
