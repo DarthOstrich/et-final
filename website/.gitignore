@@ -27,7 +27,8 @@ src/components
 
 ## Progamatic CSS
 
-app/assets/css
+app/assets/css/
+*.css
 
 ## OS X
 .DS_Store
