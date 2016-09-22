@@ -27,7 +27,7 @@ src/components
 
 ## Progamatic CSS
 
-app/assets/css/
+website/app/assets/css
 *.css
 
 ## OS X
