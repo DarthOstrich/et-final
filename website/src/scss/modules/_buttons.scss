@@ -6,4 +6,38 @@
 	color: #fff;
 	font-size: 1.25em;
 	text-align: center;
+	position: relative;
 }
+
+.top-bar {
+	.donate {
+		&::after {
+			content: " ";
+			top: 18px;
+			left: -30px;
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			@include background-image(linear-gradient($orange-buttons, $orange-buttons 50%, $orange-buttons-dark 50%));
+			border-radius: 50px;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 23px solid transparent;
+			border-right: 20px solid $orange-buttons;
+			border-bottom: 23px solid transparent;
+			top: 0;
+			left: -20px;
+		}
+	}
+}
+
+.donate-holder {
+	position: relative;
+}
+
+#donate-mark {}

@@ -11,3 +11,26 @@
 		color: #fff;
 	}
 }
+
+article {
+	@include span-columns(8);
+}
+
+aside {
+	@include span-columns(4);
+}
+
+#services {
+	.main {
+		padding-left: 30px;
+
+		h1 {
+			// @include span-columns(2);
+		}
+
+		.link-crumbs {
+			// @include span-columns(10);
+			// @include omega();
+		}
+	}
+}
