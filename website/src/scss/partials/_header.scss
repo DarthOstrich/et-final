@@ -11,53 +11,56 @@ header {
 	@include span-columns(12);
 	// $mobile: new-breakpoint(max-width 500px 4);
 	background-color: $header-bg;
+}
 
-	.mini-bar {
-		@include span-columns(12);
-		background-color: $footer;
-		padding-left: 65px;
-		padding-top: 10px;
-	}
+.mini-bar {
+	@include span-columns(12);
+	background-color: $footer;
+	padding-left: 65px;
+	padding-top: 10px;
+}
 
-	.top-mini-nav {
-		@include span-columns(5 of 12);
+.top-mini-nav {
+	@include span-columns(5 of 12);
 
-		li {
+	li {
+		color: #fff;
+
+		a {
+			text-decoration: none;
 			color: #fff;
-
-			a {
-				text-decoration: none;
-				color: #fff;
-				padding: 10px;
-			}
+			padding: 10px;
 		}
 	}
+}
 
-	.facebook {
-		@include span-columns(1 of 12);
+.facebook {
+	@include span-columns(1 of 12);
 
-		button {
-			width: 100%;
-		}
+	button {
+		width: 100%;
+		line-height: 26px;
+	}
+}
+
+.search {
+	@include span-columns(2 of 12);
+
+	input {
+		width: 100%;
+		border-radius: 10px;
+		border: none;
+		padding: 2px;
+		line-height: 26px;
 	}
 
-	.search {
-		@include span-columns(2 of 12);
+	.fa-search {}
+}
 
-		input {
-			width: 100%;
-			border-radius: 10px;
-			border: none;
-			padding: 2px;
-		}
-
-		.fa-search {}
-	}
-
-	.donate {
-		@include span-columns(4 of 12);
-		@include omega();
-	}
+.donate {
+	@include span-columns(4 of 12);
+	@include omega();
+	line-height: 26px;
 }
 
 nav ul li {
@@ -80,6 +83,6 @@ nav ul li {
 	li a {
 		text-decoration: none;
 		color: $font-color;
-		padding: 21px;
+		margin: 21px;
 	}
 }
