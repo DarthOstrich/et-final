@@ -556,7 +556,7 @@ nav ul li {
   .header-image h2 {
     position: absolute;
     right: 10px;
-    top: 0px;
+    top: 0;
     color: #fff; }
 
 article {
@@ -613,6 +613,30 @@ aside {
     width: 48%; }
   .snippet p {
     margin-left: 2%; }
+
+#services article h1 {
+  font-size: 1.25em;
+  font-weight: normal;
+  color: #f79714; }
+
+#services .news-feed h2 {
+  font-family: 'droid sans';
+  color: #173f6b;
+  border-bottom: 1px solid #cecccc;
+  margin-bottom: 10px; }
+
+#services .news-feed h4 {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin: 0; }
+
+#services .news-feed .date {
+  color: #f79714;
+  font-size: 0.75em;
+  margin: 0; }
+
+#services .news-feed .byline {
+  color: #c2c1c0; }
 
 .footer {
   float: left;
@@ -686,11 +710,12 @@ aside {
 .donate-holder {
   position: relative; }
 
+
 h1,
 h2,
-h3,
-h4 {
-  font-family: 'Droid Serif', serif; }
+h3 {
+  font-family: 'Droid Serif', serif;
+  font-weight: normal; }
 
 ::-moz-selection {
   background: #333;
