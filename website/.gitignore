@@ -27,7 +27,6 @@ src/components
 .sass-cache
 
 ## Progamatic CSS
-
 app/assets/css
 *.css
 
