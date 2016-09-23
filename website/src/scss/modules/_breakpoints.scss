@@ -1,4 +1,34 @@
 @media only screen and (min-width:320px) {}
+@media only screen and (max-width:768px) {
+	.mini-bar {
+		// padding-left: 0;
+		.top-mini-nav {
+			// @include fill-parent();
+			@include span-columns (5 of 12);
+		}
+
+		.donate {
+			@include span-columns (3 of 12);
+		}
+
+		.facebook {
+			@include span-columns (2 of 12);
+		}
+
+		.search {
+			@include span-columns (2 of 12);
+		}
+	}
+
+	.top-nav ul {
+		background-color: #fff;
+		padding: 7px;
+	}
+
+	.top-nav li a {
+		margin: 19px;
+	}
+}
 @media only screen and (max-width:480px) {
 	.main {
 		@include span-columns(12);
@@ -24,6 +54,24 @@
 	.top-nav li a {
 		margin: 5px;
 	}
+
+	.mini-bar {
+		// padding-left: 0;
+		.top-mini-nav {
+			@include fill-parent();
+			// @include span-columns (10 of 12);
+		}
+
+		.facebook {
+			@include span-columns (2 of 12);
+			@include shift(2);
+		}
+
+		.donate,
+		.search {
+			@include span-columns (4 of 12);
+		}
+	}
 	/*-------------------------------------
 	| Services Page related stuff
 	-------------------------------------*/
@@ -46,29 +94,6 @@
 				margin-bottom: 10px;
 			}
 		}
-	}
-}
-@media only screen and (max-width:768px) {
-	.mini-bar {
-		// padding-left: 0;
-		.top-mini-nav {
-			@include fill-parent();
-		}
-
-		.donate,
-		.facebook,
-		.search {
-			@include span-columns (4 of 12);
-		}
-	}
-
-	.top-nav ul {
-		background-color: #fff;
-		padding: 7px;
-	}
-
-	.top-nav li a {
-		margin: 19px;
 	}
 }
 @media only screen and (min-width:1024px) {}
