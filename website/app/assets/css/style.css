@@ -576,7 +576,16 @@ aside {
     margin-right: 0; }
 
 #services .main {
-  padding-left: 30px; }
+  padding-left: 30px;
+  background-image: linear-gradient(#eceaea, #fff 16%);
+  margin-right: -2.35765%; }
+  #services .main > h1 {
+    display: inline-block;
+    width: 20%; }
+  #services .main .link-crumbs {
+    display: inline-block;
+    text-align: right;
+    width: 79%; }
 
 .sidebar {
   padding-left: 10px; }

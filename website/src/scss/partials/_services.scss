@@ -23,12 +23,19 @@ aside {
 #services {
 	.main {
 		padding-left: 30px;
+		@include background-image(linear-gradient(#eceaea, #fff 16%));
+		margin-right: -2.35765%;
 
-		h1 {
+		> h1 {
 			// @include span-columns(2);
+			display: inline-block;
+			width: 20%;
 		}
 
 		.link-crumbs {
+			display: inline-block;
+			text-align: right;
+			width: 79%;
 			// @include span-columns(10);
 			// @include omega();
 		}

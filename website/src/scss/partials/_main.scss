@@ -1,7 +1,6 @@
 .main {
 	@include span-columns(8);
-	// @include reset-display;
-	// @include pad();
+
 	img {
 		width: 100%;
 	}
