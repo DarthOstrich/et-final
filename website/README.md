@@ -63,7 +63,7 @@ and anything else you feel is appropriate
 - [x] 5 bonus points if you have over 50 total team commits to your upstream repo.
 - [x] 5 bonus points if you incorporate SMACSS structure
 - [ ] 5 bonus points if you publish to a staging server (include URL in README)
-- [x] 5 bonus points if you publish to a publication server
+- [ ] 5 bonus points if you publish to a publication server
 
 - [ ] Instructor Questions on Last Day of Class
 ** (- 5 pts) for each question **
@@ -77,5 +77,3 @@ and anything else you feel is appropriate
 - [x] HTML should only point to one application.css file and one application.* js file*
 
 **Total Possible Points: 120**
-
- ![Lizard](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lizards.svg/2000px-Lizards.svg.png)
