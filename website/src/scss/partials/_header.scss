@@ -70,6 +70,7 @@ nav ul li {
 	// @include fill-parent();
 	// @include row(table);
 	background-color: $header-bg;
+	text-transform: uppercase;
 
 	ul {
 		background-color: #fff;
@@ -79,6 +80,6 @@ nav ul li {
 	li a {
 		text-decoration: none;
 		color: $font-color;
-		padding: 27px;
+		padding: 21px;
 	}
 }

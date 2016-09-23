@@ -9,36 +9,39 @@
 		text-align: center;
 		position: relative;
 		font-family: 'droid serif';
-		margin-left: 20%;
-
-		&::before {
-			content: "";
-			position: absolute;
-			width: 0;
-			height: 0;
-			border-top: 18px solid transparent;
-			border-right: 11px solid #f79714;
-			border-bottom: 18px solid transparent;
-			top: 0;
-			left: -11px;
-		}
-
-		&::after {
-			content: " ";
-			top: 13px;
-			left: -20px;
-			position: absolute;
-			width: 10px;
-			height: 10px;
-			@include background-image(linear-gradient($orange-buttons, $orange-buttons 50%, $orange-buttons-dark 50%));
-			border-radius: 50px;
-		}
 	}
 	// margin-left: 20px;
 }
 
 .top-bar {
-	.donate {}
+	.donate {
+		button {
+			margin-left: 20%;
+
+			&::before {
+				content: "";
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-top: 18px solid transparent;
+				border-right: 11px solid #f79714;
+				border-bottom: 18px solid transparent;
+				top: 0;
+				left: -11px;
+			}
+
+			&::after {
+				content: " ";
+				top: 13px;
+				left: -20px;
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				@include background-image(linear-gradient($orange-buttons, $orange-buttons 50%, $orange-buttons-dark 50%));
+				border-radius: 50px;
+			}
+		}
+	}
 }
 
 .donate-holder {

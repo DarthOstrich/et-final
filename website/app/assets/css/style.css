@@ -479,7 +479,8 @@ nav ul li {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-color: #515151; }
+  background-color: #515151;
+  text-transform: uppercase; }
   .top-nav:last-child {
     margin-right: 0; }
   .top-nav ul {
@@ -488,7 +489,7 @@ nav ul li {
   .top-nav li a {
     text-decoration: none;
     color: #938f8b;
-    padding: 27px; }
+    padding: 21px; }
 
 .nav ul {
   list-style: none; }
@@ -555,7 +556,7 @@ nav ul li {
   .header-image h2 {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 0px;
     color: #fff; }
 
 article {
@@ -576,6 +577,42 @@ aside {
 
 #services .main {
   padding-left: 30px; }
+
+.sidebar {
+  padding-left: 10px; }
+  .sidebar ul ul {
+    border-bottom: 1px solid #cecccc; }
+  .sidebar ul {
+    color: #1b2835;
+    -webkit-padding-start: 0;
+    padding: 5px; }
+    .sidebar ul > li {
+      display: block;
+      padding: 5px; }
+  .sidebar .first-level {
+    border-bottom: 1px solid #cecccc; }
+  .sidebar .current {
+    color: #f79714;
+    position: relative; }
+    .sidebar .current::before {
+      content: url("../img/style-arrow.png");
+      position: absolute;
+      left: 15px;
+      top: 2px; }
+  .sidebar .second-level {
+    padding: 0 0 0 30px; }
+  .sidebar .donate button {
+    width: 100%; }
+
+.snippet {
+  background: #f3f2f2;
+  padding: 20px; }
+  .snippet img,
+  .snippet p {
+    display: inline-block;
+    width: 48%; }
+  .snippet p {
+    margin-left: 2%; }
 
 .footer {
   float: left;
@@ -622,9 +659,11 @@ aside {
   font-size: 1.25em;
   text-align: center;
   position: relative;
-  font-family: 'droid serif';
+  font-family: 'droid serif'; }
+
+.top-bar .donate button {
   margin-left: 20%; }
-  .donate button::before {
+  .top-bar .donate button::before {
     content: "";
     position: absolute;
     width: 0;
@@ -634,7 +673,7 @@ aside {
     border-bottom: 18px solid transparent;
     top: 0;
     left: -11px; }
-  .donate button::after {
+  .top-bar .donate button::after {
     content: " ";
     top: 13px;
     left: -20px;
