@@ -1,30 +1,34 @@
 .footer {
 	@include span-columns(12);
-  background-color: $footer;
+	background-color: $footer;
 
 	.footer-section {
 		@include span-columns(3 of 12);
-
 	}
 
-  .footer-section h4 {
-    background-color: $footer-nav;
-    text-align: center;
-    padding: 5px;
-    color: #fff;
-  }
+	.footer-section h4 {
+		background-color: $footer-nav;
+		text-align: center;
+		padding: 5px;
+		color: #fff;
+	}
 
-  .footer-section li {
-    color: $font-color;
-  }
+	.footer-section li {
+		color: $font-color;
+	}
 
-  .footer-section img {
-    margin-top: 30px;
-  }
+	.footer-section:nth-of-type(4) {
+		text-align: center;
+	}
+
+	.footer-section img {
+		margin-top: 30px;
+		max-height: 75px;
+	}
 }
 
 .copyright {
 	@include outer-container;
 	text-align: center;
-  color: #fff;
+	color: #fff;
 }

@@ -13,3 +13,14 @@ h3 {
 	font-family: 'Droid Serif', serif;
 	font-weight: normal;
 }
+
+a {
+	color: $orange-buttons;
+	transition: all 1ms;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $orange-buttons-dark !important;
+	transition: all 1ms;
+}
