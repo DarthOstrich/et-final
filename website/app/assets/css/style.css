@@ -1,5 +1,6 @@
 /* Mixin Example */
 @import 'https://fonts.googleapis.com/css?family=David+Libre';
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700';
 html {
   box-sizing: border-box; }
 
@@ -26,7 +27,7 @@ html {
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
   color: #444;
-  transition: all .4s .3s ease-in;
+  transition: all 0.4s 0.3s ease-in;
   background-color: #1b2835;
   background-image: linear-gradient(#1b2835, #0e3767); }
 
@@ -405,6 +406,9 @@ header {
     content: "";
     display: table; }
 
+.logo {
+  position: absolute; }
+
 .top-bar {
   float: left;
   display: block;
@@ -419,16 +423,9 @@ header {
     margin-right: 2.35765%;
     width: 100%;
     background-color: #0c2745;
-    padding-left: 65px; }
+    padding-left: 65px;
+    padding-top: 10px; }
     .top-bar .mini-bar:last-child {
-      margin-right: 0; }
-  .top-bar .logo {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 6.17215%;
-    position: absolute; }
-    .top-bar .logo:last-child {
       margin-right: 0; }
   .top-bar .top-mini-nav {
     float: left;
@@ -443,18 +440,32 @@ header {
         text-decoration: none;
         color: #fff;
         padding: 10px; }
+  .top-bar .facebook {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%; }
+    .top-bar .facebook:last-child {
+      margin-right: 0; }
+    .top-bar .facebook button {
+      width: 100%; }
   .top-bar .search {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 14.70196%; }
     .top-bar .search:last-child {
       margin-right: 0; }
+    .top-bar .search input {
+      width: 100%;
+      border-radius: 10px;
+      border: none;
+      padding: 2px; }
   .top-bar .donate {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%;
+    width: 31.76157%;
     margin-right: 0; }
     .top-bar .donate:last-child {
       margin-right: 0; }
@@ -473,8 +484,7 @@ nav ul li {
     margin-right: 0; }
   .top-nav ul {
     background-color: #fff;
-    padding: 7px;
-    padding-left: 100px; }
+    padding: 7px 7px 7px 100px; }
   .top-nav li a {
     text-decoration: none;
     color: #938f8b;
@@ -537,6 +547,36 @@ nav ul li {
   .sidebar .fb-post {
     padding-right: 20px; }
 
+.header-image {
+  position: relative;
+  background: url("../img/services/1132.jpg");
+  padding: 100px 0;
+  background-position: center; }
+  .header-image h2 {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff; }
+
+article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  article:last-child {
+    margin-right: 0; }
+
+aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  aside:last-child {
+    margin-right: 0; }
+
+#services .main {
+  padding-left: 30px; }
+
 .footer {
   float: left;
   display: block;
@@ -573,12 +613,45 @@ nav ul li {
     content: "";
     display: table; }
 
-@font-face {
-  font-family: 'Font-Name';
-  src: url("../fonts/font-name.eot");
-  src: url("../fonts/font-name.eot?#iefix") format("embedded-opentype"), url("../fonts/font-name.woff") format("woff"), url("../fonts/font-name.ttf") format("truetype"), url("../fonts/font-name.svg#font-name") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+.donate button {
+  background-image: linear-gradient(#f79714, #f79714 50%, #d4740d 50%);
+  border: none;
+  padding: 5px;
+  width: 80%;
+  color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  position: relative;
+  font-family: 'droid serif';
+  margin-left: 20%; }
+  .donate button::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-right: 11px solid #f79714;
+    border-bottom: 18px solid transparent;
+    top: 0;
+    left: -11px; }
+  .donate button::after {
+    content: " ";
+    top: 13px;
+    left: -20px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(#f79714, #f79714 50%, #d4740d 50%);
+    border-radius: 50px; }
+
+.donate-holder {
+  position: relative; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Droid Serif', serif; }
 
 ::-moz-selection {
   background: #333;
