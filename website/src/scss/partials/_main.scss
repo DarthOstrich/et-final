@@ -1,5 +1,6 @@
 .main {
 	@include span-columns(8);
+	@include omega();
 
 	img {
 		width: 100%;
@@ -16,7 +17,7 @@
 
 .sidebar {
 	@include span-columns(4);
-	@include omega;
+	// @include omega;
 	// @include pad();
 	a {
 		color: $footer-nav;

@@ -498,7 +498,8 @@ nav ul li {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 65.88078%;
+  margin-right: 0; }
   .main:last-child {
     margin-right: 0; }
   .main img {
@@ -514,8 +515,7 @@ nav ul li {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
-  margin-right: 0; }
+  width: 31.76157%; }
   .sidebar:last-child {
     margin-right: 0; }
   .sidebar a {
@@ -571,14 +571,15 @@ aside {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  margin-bottom: 10px; }
   aside:last-child {
     margin-right: 0; }
 
 #services .main {
-  padding-left: 30px;
-  background-image: linear-gradient(#eceaea, #fff 16%);
-  margin-right: -2.35765%; }
+  padding-right: 20px;
+  padding-left: 20px;
+  background-image: linear-gradient(#eceaea, #fff 16%); }
   #services .main > h1 {
     display: inline-block;
     width: 20%; }
@@ -694,27 +695,29 @@ aside {
   position: relative;
   font-family: 'droid serif'; }
 
-.top-bar .donate button {
-  margin-left: 20%; }
-  .top-bar .donate button::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 18px solid transparent;
-    border-right: 11px solid #f79714;
-    border-bottom: 18px solid transparent;
-    top: 0;
-    left: -11px; }
-  .top-bar .donate button::after {
-    content: " ";
-    top: 13px;
-    left: -20px;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-image: linear-gradient(#f79714, #f79714 50%, #d4740d 50%);
-    border-radius: 50px; }
+.top-bar .donate {
+  position: relative; }
+  .top-bar .donate button {
+    margin-left: 20%; }
+    .top-bar .donate button::before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 18px solid transparent;
+      border-right: 11px solid #f79714;
+      border-bottom: 18px solid transparent;
+      top: 0;
+      left: -11px; }
+    .top-bar .donate button::after {
+      content: " ";
+      top: 13px;
+      left: -20px;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-image: linear-gradient(#f79714, #f79714 50%, #d4740d 50%);
+      border-radius: 50px; }
 
 .donate-holder {
   position: relative; }

@@ -18,14 +18,15 @@ article {
 
 aside {
 	@include span-columns(4);
+	margin-bottom: 10px;
 }
 
 #services {
 	.main {
-		padding-left: 30px;
+		padding-right: 20px;
+		padding-left: 20px;
 		@include background-image(linear-gradient(#eceaea, #fff 16%));
-		margin-right: -2.35765%;
-
+		// margin-right: -2.35765%;
 		> h1 {
 			// @include span-columns(2);
 			display: inline-block;
