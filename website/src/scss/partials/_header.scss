@@ -37,6 +37,7 @@ header {
 
 .facebook {
 	@include span-columns(2 of 12);
+	position: relative;
 
 	button {
 		text-align: right;
@@ -48,10 +49,18 @@ header {
 		border: none;
 		@include linear-gradient(#222c39,#446aa8);
 	}
+
+	.fa {
+		position: absolute;
+		top: 2px;
+		left: 4px;
+		font-size: 2em;
+		color: #446aa8;
+	}
 }
 
 .search {
-	@include span-columns(2 of 12);
+	@include span-columns(3 of 12);
 
 	input {
 		width: 100%;
@@ -65,7 +74,7 @@ header {
 }
 
 .donate {
-	@include span-columns(4 of 12);
+	@include span-columns(3 of 12);
 	@include omega();
 	line-height: 26px;
 }
