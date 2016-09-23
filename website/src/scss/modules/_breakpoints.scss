@@ -29,9 +29,21 @@
 	-------------------------------------*/
 	#services {
 		.main {
+			.header-image,
+			.link-crumbs,
 			article,
-			aside {
+			aside,
+			h1 {
 				@include span-columns(12);
+			}
+
+			h1 {
+				margin-bottom: 5px;
+			}
+
+			.link-crumbs {
+				text-align: center;
+				margin-bottom: 10px;
 			}
 		}
 	}
